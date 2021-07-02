@@ -15,7 +15,7 @@
 </p>
 
 <h4 align="center"> 
-  Born in Salvador, looking for my place in the world, currently an android developer, graduating in systems analysis, I am completely fascinated by the area, I like challenges and learn more and more to be the best at what I do. I seek to work in the technology area using my skills with the latest in the market, participating in projects, developments and software analysis, thus being able to grow professionally. 🚀
+  From Salvador, currently android developer, systems analysis student, I am completely fascinated by the area, I like challenges and I learn more and more to be the best at what I do. I try to work in the technology area using my skills with what is most modern in the market, participating in projects, developments and software analysis, thus being able to grow professionally. 🚀
 </h4>
 
 <br>

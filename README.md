@@ -15,7 +15,7 @@
 </p>
 
 <h4 align="center"> 
-  From Salvador, currently android developer, systems analysis student, I am completely fascinated by the area, I like challenges and I learn more and more to be the best at what I do. I try to work in the technology area using my skills with what is most modern in the market, participating in projects, developments and software analysis, thus being able to grow professionally. 🚀
+  I am an android developer from Salvador, systems analysis and development student, and completely fascinated by the field of software engineering. I love problem-solving and lifelong-learning, as I am always focused on becoming the best version of myself, personally and professionally. With that said, I hone my skills with cutting-edge knowledge and practices to spearhead all of the projects I am involved with, which are many!. 🚀
 </h4>
 
 <br>

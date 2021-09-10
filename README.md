@@ -9,7 +9,7 @@
     <img alt="logo Linkedin" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white/">
   </a>
   
-<a href="https://luana-barbosa.github.io/LuanaBarbosa-PaginaPessoal/">
+<a href="https://luana-barbosa.github.io/LuanaBarbosa-AndroidDeveloper/">
     <img alt="logo Twitter" src="https://img.shields.io/badge/Blog-%23FF4088.svg?&style=for-the-badge&logo=hugo&logoColor=white">
   </a>
 </p>

@@ -15,7 +15,7 @@
 </p>
 
 <h4 align="center"> 
-  I am an android developer from Salvador, systems analysis and development student, and completely fascinated by the field of software engineering. I love problem-solving and lifelong-learning, as I am always focused on becoming the best version of myself, personally and professionally. With that said, I hone my skills with cutting-edge knowledge and practices to spearhead all of the projects I am involved with, which are many!. 🚀
+  I am an android developer from Salvador, graduated in Systems Analysis and Development, and completely fascinated by the field of software engineering. I love problem-solving and lifelong-learning, as I am always focused on becoming the best version of myself, personally and professionally. With that said, I hone my skills with cutting-edge knowledge and practices to spearhead all of the projects I am involved with, which are many!. 🚀
 </h4>
 
 <br>

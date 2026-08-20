@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="LUANA BARBOSA - Android · Kotlin Multiplatform">
+<style>
+  @keyframes hopx { 0.0% { transform: translateX(96px); } 16.2% { transform: translateX(300px); } 32.4% { transform: translateX(504px); } 48.6% { transform: translateX(708px); } 64.8% { transform: translateX(912px); } 81% { transform: translateX(912px); } 100% { transform: translateX(912px); } }
+  @keyframes hopy { 0.0% { transform: translateY(0px); } 8.1% { transform: translateY(-34px); } 16.2% { transform: translateY(0px); } 24.3% { transform: translateY(-34px); } 32.4% { transform: translateY(0px); } 40.5% { transform: translateY(-34px); } 48.6% { transform: translateY(0px); } 56.7% { transform: translateY(-34px); } 64.8% { transform: translateY(0px); } 72.9% { transform: translateY(-34px); } 81%,100% { transform: translateY(0); } }
+  @keyframes squash { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(.9); } }
+  .hopx { animation: hopx 6.0s cubic-bezier(.4,0,.6,1) infinite; }
+  .hopy { animation: hopy 6.0s cubic-bezier(.3,0,.7,1) infinite; }
+  .bod  { transform-box: fill-box; transform-origin: 50% 100%; animation: squash 0.60s ease-in-out infinite; }
+  @keyframes lit0 { 0%,0.0% { opacity:.16; } 1.5%,100% { opacity:1; } }
+  .c0 { animation: lit0 6.0s linear infinite; }
+  @keyframes lit1 { 0%,16.2% { opacity:.16; } 17.7%,100% { opacity:1; } }
+  .c1 { animation: lit1 6.0s linear infinite; }
+  @keyframes lit2 { 0%,32.4% { opacity:.16; } 33.9%,100% { opacity:1; } }
+  .c2 { animation: lit2 6.0s linear infinite; }
+  @keyframes lit3 { 0%,48.6% { opacity:.16; } 50.1%,100% { opacity:1; } }
+  .c3 { animation: lit3 6.0s linear infinite; }
+  @keyframes lit4 { 0%,64.8% { opacity:.16; } 66.3%,100% { opacity:1; } }
+  .c4 { animation: lit4 6.0s linear infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+  }
+</style>
+
+<defs><linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DDC84"/><stop offset="1" stop-color="#7C6BF0"/></linearGradient></defs>
+<rect width="1200" height="240" fill="#FFFFFF"/>
+<text x="80" y="112" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="2" fill="#1F2328" xml:space="preserve"><tspan class="c0">LUA</tspan><tspan class="c1">NA </tspan><tspan class="c2">BAR</tspan><tspan class="c3">BO</tspan><tspan class="c4">SA</tspan></text>
+<rect class="c0" x="90" y="176" width="104" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c1" x="294" y="176" width="104" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c2" x="498" y="176" width="104" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c3" x="702" y="176" width="104" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c4" x="906" y="176" width="104" height="10" rx="5" fill="url(#acc)"/>
+<g class="hopx"><g class="hopy"><g class="bod">
+<rect x="18" y="140" width="34" height="30" rx="9" fill="url(#acc)"/>
+<circle cx="28" cy="152" r="3.4" fill="#FFFFFF"/>
+<circle cx="42" cy="152" r="3.4" fill="#FFFFFF"/>
+<path d="M22 138 L17 128" stroke="url(#acc)" stroke-width="3" stroke-linecap="round"/>
+<path d="M48 138 L53 128" stroke="url(#acc)" stroke-width="3" stroke-linecap="round"/>
+</g></g></g>
+<text x="80" y="216" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" letter-spacing="1.4" fill="#59636E">Android · Kotlin Multiplatform</text>
+</svg>

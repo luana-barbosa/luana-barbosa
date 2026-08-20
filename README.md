@@ -1,64 +1,7 @@
-> [!NOTE]
-> **Branch de preview, não é o perfil.** A `main` está intacta. As quatro animações abaixo rodam
-> sozinhas em loop nesta página. Escolha uma e eu monto o README final só com ela.
-
-<br>
-
-## 1. Cobrinha sua
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/top-snake-dark.svg">
-  <img alt="Cobrinha comendo blocos e revelando o nome" src="assets/top-snake-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Luana Barbosa, Android e Kotlin Multiplatform" src="assets/hero-light.svg">
 </picture>
-
-<sub>Ela atravessa comendo os blocos, cresce a cada bloco, e o nome acende no rastro. Loop de 6s.
-É a cobrinha que você gostava, só que sua: a de hoje puxa o SVG do repositório de outra pessoa.</sub>
-
-<br>
-
-## 2. Terminal rodando o build
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/top-terminal-dark.svg">
-  <img alt="Terminal digitando gradlew e compilando para Android e iOS" src="assets/top-terminal-light.svg">
-</picture>
-
-<sub>Digita o comando sozinho, compila pros dois targets, passa o Maestro e fecha com BUILD
-SUCCESSFUL. Diz a stack inteira sem listar tecnologia nenhuma. Loop de 7,5s.</sub>
-
-<br>
-
-## 3. Robozinho pulando
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/top-robot-dark.svg">
-  <img alt="Robozinho saltando entre plataformas e acendendo o nome" src="assets/top-robot-light.svg">
-</picture>
-
-<sub>Salta de plataforma em plataforma e cada pouso acende um pedaço do nome. O mais brincalhão dos
-quatro. Loop de 6s.</sub>
-
-<br>
-
-## 4. Um código, dois telefones
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/top-phones-dark.svg">
-  <img alt="Codigo compartilhado gerando a mesma tela no Android e no iOS" src="assets/top-phones-light.svg">
-</picture>
-
-<sub>O bloco `kt` do meio pulsa e dispara partículas pros dois lados, e a mesma tela nasce junto no
-Android e no iOS. É literalmente o seu trabalho virando animação. Loop de 4,2s.</sub>
-
-<br>
-
----
-
-<br>
-
-# corpo do README (esse você aprovou)
-
-<br>
 
 ### Mobile engineer · Android, Kotlin Multiplatform
 
@@ -83,8 +26,6 @@ automations, triage, and CI so the tool itself doesn't rot.
     <img alt="Site" src="https://img.shields.io/badge/Site-FF4088?style=for-the-badge&logo=hugo&logoColor=white">
   </a>
 </p>
-
-<br>
 
 ### Stack
 

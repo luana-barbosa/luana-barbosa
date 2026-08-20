@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Luana Barbosa, Android e Kotlin Multiplatform">
+<style>
+  @keyframes hopx { 0.00% { transform: translateX(96px); } 15.20% { transform: translateX(300px); } 30.40% { transform: translateX(504px); } 45.60% { transform: translateX(708px); } 60.80% { transform: translateX(912px); } 76.00% { transform: translateX(912px); } 88.00%,100% { transform: translateX(1290px); } }
+  @keyframes hopy { 0.00% { transform: translateY(0px); } 7.60% { transform: translateY(-38px); } 15.20% { transform: translateY(0px); } 22.80% { transform: translateY(-38px); } 30.40% { transform: translateY(0px); } 38.00% { transform: translateY(-38px); } 45.60% { transform: translateY(0px); } 53.20% { transform: translateY(-38px); } 60.80% { transform: translateY(0px); } 68.40% { transform: translateY(-38px); } 76.00% { transform: translateY(0); } 82.00% { transform: translateY(-46px); } 88.00%,100% { transform: translateY(0); } }
+  @keyframes squash { 0%,64%,100% { transform: scaleY(1); } 80% { transform: scaleY(.86); } }
+  .hopx { animation: hopx 6.4s cubic-bezier(.42,0,.58,1) infinite; }
+  .hopy { animation: hopy 6.4s cubic-bezier(.33,0,.67,1) infinite; }
+  .bod  { transform-box: fill-box; transform-origin: 50% 100%; animation: squash 0.973s ease-out infinite; }
+  @keyframes lit0 { 0%,0.00% { opacity:.18; } 1.40%,93.00% { opacity:1; } 100% { opacity:.18; } }
+  .c0 { animation: lit0 6.4s linear infinite; }
+  @keyframes lit1 { 0%,15.20% { opacity:.18; } 16.60%,93.00% { opacity:1; } 100% { opacity:.18; } }
+  .c1 { animation: lit1 6.4s linear infinite; }
+  @keyframes lit2 { 0%,30.40% { opacity:.18; } 31.80%,93.00% { opacity:1; } 100% { opacity:.18; } }
+  .c2 { animation: lit2 6.4s linear infinite; }
+  @keyframes lit3 { 0%,45.60% { opacity:.18; } 47.00%,93.00% { opacity:1; } 100% { opacity:.18; } }
+  .c3 { animation: lit3 6.4s linear infinite; }
+  @keyframes lit4 { 0%,60.80% { opacity:.18; } 62.20%,93.00% { opacity:1; } 100% { opacity:.18; } }
+  .c4 { animation: lit4 6.4s linear infinite; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DDC84"/><stop offset="1" stop-color="#7C6BF0"/></linearGradient></defs>
+<rect width="1200" height="240" fill="#0D1117"/>
+<text x="82" y="112" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="2" fill="#E6EDF3" xml:space="preserve"><tspan class="c0">LUA</tspan><tspan class="c1">NA </tspan><tspan class="c2">BAR</tspan><tspan class="c3">BO</tspan><tspan class="c4">SA</tspan></text>
+<rect class="c0" x="88" y="178" width="108" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c1" x="292" y="178" width="108" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c2" x="496" y="178" width="108" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c3" x="700" y="178" width="108" height="10" rx="5" fill="url(#acc)"/>
+<rect class="c4" x="904" y="178" width="108" height="10" rx="5" fill="url(#acc)"/>
+<g class="hopx"><g class="hopy"><g class="bod">
+<rect x="24" y="142" width="36" height="30" rx="10" fill="url(#acc)"/>
+<circle cx="35" cy="155" r="3.6" fill="#0D1117"/>
+<circle cx="49" cy="155" r="3.6" fill="#0D1117"/>
+<path d="M29 140 L24 129" stroke="url(#acc)" stroke-width="3" stroke-linecap="round"/>
+<path d="M55 140 L60 129" stroke="url(#acc)" stroke-width="3" stroke-linecap="round"/>
+<rect x="32" y="171" width="6" height="8" rx="2.5" fill="url(#acc)"/>
+<rect x="46" y="171" width="6" height="8" rx="2.5" fill="url(#acc)"/>
+</g></g></g>
+<text x="82" y="220" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" letter-spacing="1.4" fill="#8B949E">Android · Kotlin Multiplatform</text>
+</svg>

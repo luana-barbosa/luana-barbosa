@@ -1,28 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Luana Barbosa - Android, Risk and Fraud, Observability">
-<defs>
-<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DDC84"/><stop offset=".5" stop-color="#2DD4BF"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
-<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".42"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
-<radialGradient id="glow2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#818CF8" stop-opacity=".34"/><stop offset="1" stop-color="#818CF8" stop-opacity="0"/></radialGradient>
-<pattern id="iso" width="28" height="16" patternUnits="userSpaceOnUse"><path d="M0 8 L14 0 L28 8 L14 16 Z" fill="none" stroke="#EAEEF2" stroke-width="1"/></pattern>
-<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
-<mask id="gridmask"><rect width="100%" height="100%" fill="url(#fade)"/></mask>
-</defs>
-<rect width="1200" height="300" fill="#FFFFFF"/>
-<rect width="1200" height="300" fill="url(#iso)" mask="url(#gridmask)" opacity=".9"/>
-<ellipse cx="1060" cy="70" rx="380" ry="260" fill="url(#glow)" opacity=".38"/>
-<ellipse cx="1160" cy="250" rx="300" ry="200" fill="url(#glow2)" opacity=".38"/>
-<rect x="0" y="0" width="6" height="300" fill="url(#acc)"/>
-<text x="72" y="132" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="4" fill="#1F2328">LUANA BARBOSA</text>
-<rect x="74" y="158" width="300" height="3" rx="1.5" fill="url(#acc)"/>
-<text x="74" y="200" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="21" letter-spacing="2.2" fill="#59636E">Android  ·  Risk &amp; Fraud  ·  Observability</text>
-<rect x="74" y="228" width="86" height="30" rx="15" fill="#F6F8FA" stroke="#D1D9E0" stroke-width="1"/>
-<text x="117.0" y="248" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#59636E">Kotlin</text>
-<rect x="174" y="228" width="118" height="30" rx="15" fill="#F6F8FA" stroke="#D1D9E0" stroke-width="1"/>
-<text x="233.0" y="248" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#59636E">Device trust</text>
-<rect x="306" y="228" width="102" height="30" rx="15" fill="#F6F8FA" stroke="#D1D9E0" stroke-width="1"/>
-<text x="357.0" y="248" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#59636E">Mobile PKI</text>
-<rect x="422" y="228" width="96" height="30" rx="15" fill="#F6F8FA" stroke="#D1D9E0" stroke-width="1"/>
-<text x="470.0" y="248" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#59636E">AI agents</text>
-<text x="1128" y="243" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="3" fill="#59636E">BRAZIL  →  SPAIN</text>
-<rect x="1014" y="256" width="114" height="2" rx="1" fill="url(#acc)" opacity=".7"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Luana Barbosa — Android, Kotlin Multiplatform">
+<style>
+  @keyframes sweep { 0% { transform: translateX(-90px); } 100% { transform: translateX(300px); } }
+  @keyframes blink { 0%,48% { opacity:1; } 52%,100% { opacity:0; } }
+  @keyframes breathe { 0%,100% { opacity:.30; } 50% { opacity:.65; } }
+  .sweep  { animation: sweep 3.8s cubic-bezier(.45,0,.25,1) infinite; }
+  .cursor { animation: blink 1.15s steps(1) infinite; }
+  .halo   { animation: breathe 7s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .sweep, .cursor, .halo { animation: none; }
+  }
+</style>
+<defs><linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3DDC84"/><stop offset="1" stop-color="#7C6BF0"/></linearGradient><linearGradient id="spark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#3DDC84" stop-opacity=".55"/><stop offset="1" stop-color="#3DDC84" stop-opacity="0"/></radialGradient><clipPath id="rule"><rect x="74" y="150" width="300" height="4" rx="2"/></clipPath></defs>
+<rect width="1200" height="220" fill="#FFFFFF"/>
+<ellipse class="halo" cx="1050" cy="60" rx="330" ry="210" fill="url(#glow)"/>
+<text x="72" y="118" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="60" font-weight="700" letter-spacing="3" fill="#1F2328">LUANA BARBOSA</text>
+<rect x="74" y="150" width="300" height="4" rx="2" fill="#D8DEE4"/>
+<rect x="74" y="150" width="300" height="4" rx="2" fill="url(#acc)" opacity=".85"/>
+<g clip-path="url(#rule)"><rect class="sweep" x="74" y="150" width="90" height="4" fill="url(#spark)"/></g>
+<text x="74" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="21" letter-spacing="1.5" textLength="400" lengthAdjust="spacing" fill="#59636E">Android · Kotlin Multiplatform</text>
+<rect class="cursor" x="484" y="174" width="11" height="21" fill="url(#acc)"/>
 </svg>

@@ -1,19 +1,20 @@
 > [!NOTE]
-> **Branch de preview — não é o perfil.** A `main` está intacta, então github.com/luana-barbosa
-> continua igual. Aqui estão as duas opções de topo lado a lado e o corpo novo do README.
-> Depois de escolher, isso vira um README limpo (só a opção escolhida) e vai pra `main`.
+> **Branch de preview — não é o perfil.** A `main` está intacta. Escolha o topo e eu limpo isso
+> num README final. Correção da v1: eu havia escrito "Risk & Fraud · Observability", que veio do
+> contexto do projeto onde a gente conversava, não de você. Refeito em cima do seu material.
 
 <br>
 
-# OPÇÃO A — banner próprio
+# OPÇÃO A — banner animado
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Luana Barbosa — Android · Risk & Fraud · Observability" src="assets/banner-light.svg">
+  <img alt="Luana Barbosa — Android · Kotlin Multiplatform" src="assets/banner-light.svg">
 </picture>
 
-<sub>Arquivo seu, no seu repo. Troca sozinho entre tema claro e escuro. Nenhum serviço de terceiro
-no caminho — não tem como quebrar.</sub>
+<sub>Nome, uma linha, nada mais. O brilho atravessa a régua a cada 3,8s e o cursor pisca.
+Arquivo seu, no seu repo — nenhum serviço de terceiro no caminho. Respeita
+<code>prefers-reduced-motion</code>.</sub>
 
 <br><br>
 
@@ -24,9 +25,9 @@ no caminho — não tem como quebrar.</sub>
   <img alt="2.518 contribuições no último ano, em vista isométrica" src="assets/contrib-3d-light.svg">
 </picture>
 
-<sub>Seus dados reais: 2.518 contribuições, 218 dias ativos, pico de 42 num dia. Repare que ele
-cresce da esquerda pra direita — sua atividade acelerou nos últimos meses, e isso aparece de graça.
-Se você escolher essa, eu configuro um GitHub Action pra regerar o SVG toda semana.</sub>
+<sub>Seus dados reais: 2.518 contribuições, 218 dias ativos, pico de 42 num dia. Cresce da
+esquerda pra direita — sua atividade acelerou nos últimos meses. Se escolher, eu ponho um
+GitHub Action pra regerar toda semana.</sub>
 
 <br>
 
@@ -34,23 +35,24 @@ Se você escolher essa, eu configuro um GitHub Action pra regerar o SVG toda sem
 
 <br>
 
-# ↓ o corpo do README (vale pras duas opções)
+# ↓ corpo do README
 
 <br>
 
-### Android engineer, risk side.
+### Mobile engineer — Android, Kotlin Multiplatform.
 
-I build the part of a fintech app that decides whether you're really you — liveness and biometric
-checks, device-bound certificates, and the fraud signals underneath.
+I move production journeys to Kotlin Multiplatform: shared domain and data, native integration on
+both the Android and the iOS side, shipped behind flags, legacy deleted once it's stable. Small
+incremental PRs, Maestro suites green at every step.
 
-Too strict, and someone real can't open their account. Too loose, and someone else spends their
-money. Most of my work lives in that gap.
+The part I like most isn't the migration itself — it's turning it into something repeatable. A
+pattern the next person can follow without asking me, and a rollout doc that puts the queue in
+order of effort instead of in order of opinion.
 
-The other half is knowing which of the two is happening: instrumentation, dashboards, alerts — and
-lately, AI agents that read our own services and answer questions about them, with the source code
-as the only thing allowed to settle an argument.
+And when a manual process shows up often enough, I build the bot that does it: workflow
+automations, triage, and CI so the tool itself doesn't rot.
 
-**Kotlin** by trade · **Python** when the tooling needs it · Brazilian, based in Spain.
+**Kotlin** · **KMP** · **Swift** on the iOS side · **Python** for tooling
 
 <p>
   <a href="https://www.linkedin.com/in/luana-barbosa93/">
@@ -65,37 +67,15 @@ as the only thing allowed to settle an argument.
 
 ### Stack
 
-**Mobile**
+[![Mobile](https://skillicons.dev/icons?i=kotlin,swift,androidstudio,gradle,firebase)](https://skillicons.dev)
 
-[![Mobile](https://skillicons.dev/icons?i=kotlin,java,androidstudio,gradle,firebase)](https://skillicons.dev)
-
-**Plataforma & dados**
-
-[![Plataforma](https://skillicons.dev/icons?i=py,js,docker,kubernetes,githubactions,postgres,kafka,git)](https://skillicons.dev)
-
-**Observabilidade & IA**
+[![Ferramentas](https://skillicons.dev/icons?i=py,js,git,githubactions,figma)](https://skillicons.dev)
 
 <p>
-  <img alt="Datadog" src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white">
-  <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white">
-  <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white">
-  <img alt="Mixpanel" src="https://img.shields.io/badge/Mixpanel-7856FF?style=for-the-badge&logo=mixpanel&logoColor=white">
-  <img alt="Claude" src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white">
-  <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white">
+  <img alt="Kotlin Multiplatform" src="https://img.shields.io/badge/Kotlin%20Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
+  <img alt="Xcode" src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white">
+  <img alt="Maestro" src="https://img.shields.io/badge/Maestro-1A1A1A?style=for-the-badge&logoColor=white">
 </p>
 
-<br>
-
-### Currently
-
-- Building agents that map internal services and answer questions about them, code-first
-- Mobile engineering metrics — making "is the app healthy?" a question with an actual answer
-- Incident response with AI in the loop
-
-<br>
-
----
-
-<sub>Sobre a cobrinha antiga: o SVG apontava pra <code>beatriznonato/beatriznonato@output</code> —
-o grafo de contribuição de outra pessoa. Além de não ser seu, quebraria no dia em que aquela branch
-saísse do ar.</sub>
+<sub>KMP e Maestro não existem no skillicons, então vieram como badge. Xcode eu incluí porque você
+faz a integração nativa do lado iOS — corta se achar que passa do ponto.</sub>
